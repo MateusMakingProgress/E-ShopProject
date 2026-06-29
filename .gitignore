@@ -1,0 +1,52 @@
+# ====================================================================
+# 🛡️ SEGURANÇA & IDENTITY (Não mude isso!)
+# ====================================================================
+# Evita expor strings de conexão locais e chaves JWT
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Arquivos de chaves, certificados locais e tokens (.pem, .pfx, etc)
+*.pem
+*.key
+*.pfx
+
+# ====================================================================
+# 🎯 ASP.NET CORE (C# / .NET)
+# ====================================================================
+# Pastas de compilação (geradas automaticamente)
+[Bb]in/
+[Oo]bj/
+
+# Arquivos de configuração do usuário e caches locais
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# ====================================================================
+# 🅰️ ANGULAR (Frontend)
+# ====================================================================
+# Pasta gigante de dependências do Node (nunca versionar)
+node_modules/
+
+# Arquivos de build de produção/desenvolvimento
+/dist/
+/.angular/
+/.sass-cache/
+connect.lock
+coverage/
+
+# Log de erros do NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ====================================================================
+# 🛠️ IDEs & SISTEMA OPERACIONAL
+# ====================================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
